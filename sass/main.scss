@@ -13,135 +13,17 @@ html {
 }
 
 body {
-  padding: 6rem 3rem;
-  font-family: "Karla", sans-serif;
   font-size: 1.6rem;
-  background: $ltgray;
+  font-family: "Poppins", sans-serif;
+  background: $bgbody;
+  color: $white;
 }
 
-ul {
-  list-style: none;
-}
+// .attribution {
+//   font-size: 11px;
+//   text-align: center;
+// }
 
-a {
-  text-decoration: none;
-}
-
-.description {
-  border-radius: 10px;
-  overflow: hidden;
-
-  &__item {
-    padding: 3.2rem 2.5rem;
-
-    &--community {
-      background: $white;
-    }
-
-    &--subscription {
-      background: $cyan;
-    }
-
-    &--whyus {
-      background: $ltcyan;
-    }
-  }
-
-  &__title {
-    margin-bottom: 3rem;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: $white;
-
-    &--community {
-      color: $cyan;
-    }
-  }
-
-  &__paragraf-first {
-    color: $brtyellow;
-    margin-bottom: 2.3rem;
-  }
-
-  &__paragraf-second {
-    color: $grayblue;
-    line-height: 3rem;
-  }
-
-  &__plan {
-    display: flex;
-    margin-bottom: 0.8rem;
-    font-size: 3.2rem;
-    align-items: center;
-    color: $white;
-
-    &-price {
-      margin-left: 1rem;
-      font-size: 1.6rem;
-      opacity: 0.5;
-    }
-  }
-  &__paragraf-price {
-    margin-bottom: 1.8rem;
-    color: $ltgray;
-  }
-
-  &__btn {
-    display: inline-block;
-    width: 100%;
-    padding: 2rem 10rem;
-    border-radius: 0.5rem;
-    font-size: 1.8rem;
-    text-align: center;
-    background: $brtyellow;
-    color: $white;
-    box-shadow: 0 0 0.4rem rgba($color: #000, $alpha: 0.5);
-    transition: background 0.3s;
-    cursor: pointer;
-
-    &:hover {
-      background: $hoveryellow;
-    }
-  }
-  &__list-item {
-    color: $ltgray;
-    line-height: 2.4rem;
-  }
-}
-
-.footer {
-  margin-top: 1rem;
-
-  &__attribution {
-    font-size: 1.1rem;
-    text-align: center;
-    a {
-      color: $blue;
-    }
-  }
-}
-
-// media queries
-
-@media (min-width: 1000px) {
-  .description {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-
-    &__item--community {
-      grid-column: 1/3;
-      grid-row: 1/2;
-    }
-
-    &__item--subscription {
-      grid-column: 1/2;
-      grid-row: 2/3;
-    }
-
-    &__item-whyus {
-      grid-column: 2/3;
-      grid-row: 2/3;
-    }
-  }
-}
+// .attribution a {
+//   color: hsl(228, 45%, 44%);
+// }
